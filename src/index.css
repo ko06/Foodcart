@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.topbar{
+  position: static;
+  top: 0;
+  height: 80px;
+  background:rgb(61, 168, 240);
+  margin-bottom: 20px;
+}
+
+.container{
+  padding: 10px;
+  background:rgb(226, 220, 220);
+}
+
+.foot-cart{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  flex-direction: column;
+  background: #8080de;
+  padding: 10px;
+  box-shadow: 8px 8px 20px rgb(61, 168, 240);
+}
+
+.foot-cart img{
+  height: 150px;
+}
+
+.foot-cart button{
+  width: 100%;
+  background: purple;
+  padding: 7px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+.foot-cart .add-btn{
+  background: green;
+}
+
+.cart-body{
+  display: flex;
+  background: #073942;
+  padding: 10px;
+}
+
+.cart-body > div{
+  margin: 5px;
+}
